@@ -22,7 +22,6 @@ public class Main {
         Movie adventureTime = Movie.getMovie("Adventure", "Adventure Time");
         adventureTime.watchMovie();
 
-
         Scanner s = new Scanner(System.in);
         while(true){
             System.out.println("Enter Type ('A' for Adventure, 'R' for Racing," +
