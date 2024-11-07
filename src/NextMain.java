@@ -38,7 +38,7 @@ public class NextMain {
             ((Adventure) unknownObject).watchAdventure();
         } else if (unknownObject instanceof ScienceFiction syfy) {
             // this instanceof operator is called pattern matching support
-            // if this method returns true, then syfy is already types as a ScienceFiction
+            // if this method returns true, then syfy is already type as a ScienceFiction
             // variable.
             syfy.watchScienceFiction();
         }
