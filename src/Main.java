@@ -11,6 +11,11 @@ public class Main {
         Movie theMovie = new ScienceFiction("Interstellar");
         theMovie.watchMovie();
 
+
+        // The static method on class Movie, is calling the getMovie method on the class 'Racing'.
+        // This is because the switch statement in class Movie created a new runtime of type `Racing`
+        // and executed the method found on class `Racing`
+        // Cool stuff!!!
         Movie theFastAndFurious = Movie.getMovie("Racing", "The Fast & Furious");
         theFastAndFurious.watchMovie();
 

@@ -1,5 +1,4 @@
 public class Movie {
-
     private String title;
 
     public Movie(String title) {
@@ -12,7 +11,6 @@ public class Movie {
         System.out.println(title + " is a " + instanceType + " film");
     }
 
-
     // This Method is known as a 'Factory Method' in Software Programming Design Patterns
     public static Movie getMovie(String type, String title) {
         return switch (type.toUpperCase().charAt(0)) {
@@ -24,7 +22,6 @@ public class Movie {
 
         };
     }
-
 }
 
 class Adventure extends Movie {
@@ -45,7 +42,6 @@ class Adventure extends Movie {
     public void watchAdventure() {
         System.out.println("Watching an Adventure!");
     }
-
 }
 
 class Racing extends Movie {
@@ -66,7 +62,6 @@ class Racing extends Movie {
     public void watchRacing() {
         System.out.println("Watching a Race!");
     }
-
 }
 
 class ScienceFiction extends Movie {
@@ -87,5 +82,4 @@ class ScienceFiction extends Movie {
     public void watchScienceFiction() {
         System.out.println("Watching a Science Fiction!");
     }
-
 }

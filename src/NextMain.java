@@ -8,6 +8,7 @@ public class NextMain {
         Movie movie = Movie.getMovie("A","Frogger");
         movie.watchMovie();
 
+        // Casting Class data Type
         Adventure jaws = (Adventure) Movie.getMovie("A", "JAws");
         jaws.watchMovie();
 
